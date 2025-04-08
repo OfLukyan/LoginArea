@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    background: url(images/Design\ sem\ nome\ \(1\).png);
+    backdrop-filter:(30deg);
+    object-fit: cover;
+}
+.container {
+    width: 600px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: linear-gradient(rgb(19, 18, 18), rgb(7, 7, 7));
+    backdrop-filter: blur(3 0px);
+}
+.faixa-vermelha {
+    width: 750px;
+    bottom: 90%;
+    right: 68%;
+    position: absolute;
+    height: 200px;
+    transform: rotate(165deg);
+    background: linear-gradient(rgb(196, 26, 26), rgb(88, 12, 12));
+    clip-path: polygon(0 0, 100% 20%, 100% 80%, 0% 100%);
+  }
+.logincontainer {
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    border: solid whitesmoke 2px;
+    background: linear-gradient(whitesmoke, rgb(82, 79, 79));
+    box-shadow:  30px 30px 100px #d5d5d510,
+             -30px -30px 100px #ebebeb28;
+}
